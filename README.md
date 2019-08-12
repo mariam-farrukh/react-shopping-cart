@@ -111,7 +111,7 @@ const { products, addItem } = useContext(ProductContext);
 
 **STEP 4 - Create the CartContext**
 
-- Now that we have refactored our `Products` component to utilize `Context API` let's refactor our `Cart` and `Navigation` Component to use `Context API` as well.
+- Now that we have refactored our `Products` component to utilize `Context API` let's refactor our `ShoppingCart` and `Navigation` Component to use `Context API` as well.
 
 - To start create a new file in our contexts folder named `CartContext.js`, this context is going to be utilized by our `ShoppingCart` and `Navigation` component.
 
